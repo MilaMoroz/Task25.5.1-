@@ -6,7 +6,7 @@
 def test_all_pets(selenium):
     # авторизация
     page = AuthPage(selenium)
-    page.enter_email("kryuchkova95@yandex.ru")
+    page.enter_email("kryuchkova96@yandex.ru")
     page.enter_password("moroz05092019")
     page.click_btn()
 
